@@ -1,0 +1,139 @@
+{
+  "dial": {
+    "enable": true,
+    "x_offset": 0,
+    "y_offset": 0
+  },
+  "label": [
+    {
+      "enable": true,
+      "type": "date",
+      "label": "%H",
+      "font": "LCD",
+      "font_color": "#f60101",
+      "font_size": 32,
+      "align": "center",
+      "x_offset": 65,
+      "y_offset": 34,
+      "x_size": 50,
+      "y_size": 37
+    },
+    {
+      "enable": true,
+      "type": "date",
+      "label": "%M",
+      "font": "LCD",
+      "font_color": "#f60101",
+      "font_size": 32,
+      "align": "center",
+      "x_offset": 125,
+      "y_offset": 34,
+      "x_size": 50,
+      "y_size": 37
+    },
+    {
+      "enable": true,
+      "type": "date",
+      "label": "%S",
+      "font": "LCD",
+      "font_color": "#f60101",
+      "font_size": 16,
+      "align": "center",
+      "x_offset": 181,
+      "y_offset": 50,
+      "x_size": 34,
+      "y_size": 22
+    },
+    {
+      "enable": true,
+      "type": "date",
+      "label": "%Y",
+      "font": "LCD",
+      "font_color": "#03f905",
+      "font_size": 16,
+      "align": "center",
+      "x_offset": 172,
+      "y_offset": 113,
+      "x_size": 59,
+      "y_size": 22
+    },
+    {
+      "enable": true,
+      "type": "date",
+      "label": "%a",
+      "font": "LCD",
+      "font_color": "#03f905",
+      "font_size": 16,
+      "align": "center",
+      "x_offset": 112,
+      "y_offset": 113,
+      "x_size": 50,
+      "y_size": 22
+    },
+    {
+      "enable": true,
+      "type": "date",
+      "label": "%b",
+      "font": "LCD",
+      "font_color": "#03f905",
+      "font_size": 16,
+      "align": "center",
+      "x_offset": 54,
+      "y_offset": 113,
+      "x_size": 48,
+      "y_size": 22
+    },
+    {
+      "enable": true,
+      "type": "date",
+      "label": "%d",
+      "font": "LCD",
+      "font_color": "#03f905",
+      "font_size": 16,
+      "align": "center",
+      "x_offset": 8,
+      "y_offset": 113,
+      "x_size": 34,
+      "y_size": 22
+    },
+    {
+      "enable": true,
+      "type": "battery_percent",
+      "label": "%d",
+      "font": "LCD",
+      "font_color": "#e0a603",
+      "font_size": 16,
+      "align": "right",
+      "x_offset": 168,
+      "y_offset": 173,
+      "x_size": 47,
+      "y_size": 22
+    },
+    {
+      "enable": true,
+      "type": "battery_voltage",
+      "label": "%3.1g",
+      "font": "LCD",
+      "font_color": "#e0a603",
+      "font_size": 16,
+      "align": "right",
+      "x_offset": 110,
+      "y_offset": 173,
+      "x_size": 47,
+      "y_size": 22
+    },
+    {
+      "enable": true,
+      "type": "steps",
+      "label": "%d",
+      "font": "LCD",
+      "font_color": "#e0a603",
+      "font_size": 16,
+      "align": "right",
+      "x_offset": 15,
+      "y_offset": 173,
+      "x_size": 84,
+      "y_size": 22
+    }
+  ]
+}
